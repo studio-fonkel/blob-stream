@@ -1,4 +1,4 @@
-var blobStream = require('../');
+var blobStream = require('../src/index.js');
 var test = require('tape');
 
 test('buffers', function(t) {
