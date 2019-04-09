@@ -5980,7 +5980,7 @@ const stream = require('stream'),
 class BlobStream extends stream.Writable {
 
   constructor () {
-    stream.Writable.call(this);
+    super();
     this._chunks = [];
     this._blob = null;
     this.length = 0;
